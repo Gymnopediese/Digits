@@ -6,12 +6,12 @@
 #    By: albaud <albaud@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/18 13:07:44 by albaud            #+#    #+#              #
-#    Updated: 2023/10/18 09:25:00 by albaud           ###   ########.fr        #
+#    Updated: 2023/10/24 11:49:56 by albaud           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-SRCS 		= main.c
+SRCS 		= srcs/main.c srcs/options.c
 DIFF		= diffusion.c diffusion_hook.c cfiles/atoia.c cfiles/f_file_size.c cfiles/f_read.c cfiles/f_readlines.c
 OBJS 		= ${SRCS:.c=.o}
 DOBJS 		= ${DIFF:.c=.o}
